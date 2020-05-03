@@ -21,11 +21,6 @@ export default function Loading ({ speed = 300, text = 'loading' }) {
   )
 }
 
-Loading.propTypes = {
-  text: PropTypes.string.isRequired,
-  speed: PropTypes.number.isRequired,
-}
-
 const styles = {
   content: {
     fontSize: '35px',
